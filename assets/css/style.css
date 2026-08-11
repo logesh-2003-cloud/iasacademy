@@ -946,12 +946,12 @@ section {
 
 .hero-slide {
   height: 100vh;
-  min-height: 600px;
+  min-height: 650px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 110px;
+  padding-top: 125px;
   display: flex;
   align-items: center;
 }
@@ -2282,8 +2282,9 @@ section {
   }
 
   .hero-slide {
-    height: 85vh;
-    padding-top: 95px;
+    height: 90vh;
+    min-height: 580px;
+    padding-top: 115px;
   }
   .hero-title {
     font-size: 40px;
@@ -2420,9 +2421,9 @@ section {
   }
 
   .hero-slide {
-    height: 55vh;
-    min-height: 380px;
-    padding-top: 80px;
+    height: 75vh;
+    min-height: 480px;
+    padding-top: 95px;
   }
   .hero-title {
     font-size: 32px;
@@ -2561,9 +2562,9 @@ section {
   }
 
   .hero-slide {
-    height: 90vh;
-    min-height: 320px;
-    padding-top: 70px;
+    height: 70vh;
+    min-height: 420px;
+    padding-top: 75px;
   }
   .hero-title {
     font-size: 26px;
@@ -2743,9 +2744,9 @@ section {
     font-size: 13px !important;
   }
   .hero-slide {
-    height: 85vh;
-    min-height: 290px;
-    padding-top: 60px;
+    height: 65vh;
+    min-height: 400px;
+    padding-top: 70px;
   }
   .hero-title {
     font-size: 22px;
