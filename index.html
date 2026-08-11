@@ -1,3 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Automation System | Panel Builder & Industrial Automation</title>
+  <meta name="description"
+    content="International Automation System offers premium, high-end Panel Building and Automation systems for modern industrial settings.">
+  <link rel="canonical" href="https://iaschennai.com/index.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/ias_logo.png">
+
+  <!-- LCP Preload (Logo & First Hero Image) -->
+  <link rel="preload" as="image" href="assets/img/ias_logo.png" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/slide_01.webp" fetchpriority="high">
+
+  <!-- Preconnect to CDNs to reduce TTFB -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&family=Sora:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- AOS (Animate on Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <!-- Owl Carousel 2 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="header-inner">
+
+      <!-- Logo Box -->
+      <a href="index.html" class="logo-wrapper text-decoration-none" aria-label="IAS Home">
+        <img src="assets/img/ias_logo.png" alt="IAS — Panel Builder & Industrial Automation" class="site-logo"
+          loading="eager" width="300" height="266" fetchpriority="high">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu list-inline mb-0">
+          <li class="menu-item list-inline-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="menu-item list-inline-item"><a href="#" class="nav-link">About Us</a></li>
+          <li class="menu-item list-inline-item"><a href="#" class="nav-link">Services</a></li>
+          <li class="menu-item list-inline-item"><a href="#" class="nav-link">Projects</a></li>
+          <li class="menu-item list-inline-item"><a href="#" class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Side: Email | Phone | Button | Hamburger -->
+      <div class="header-right d-flex align-items-center">
+
+        <!-- Contact Block -->
+        <div class="header-contact" id="headerContact">
+          <a href="tel:+919959886057" class="hdr-contact-icon hdr-contact-phone-btn text-decoration-none" aria-label="Call Us">
+            <i class="ri-phone-fill"></i>
+          </a>
+          <a href="mailto:ias.saravanank11@gmail.com" class="hdr-contact-icon hdr-contact-email-btn text-decoration-none" aria-label="Email Us">
+            <i class="ri-mail-fill"></i>
+          </a>
+          <div class="hdr-contact-text">
+            <a href="tel:+919959886057" class="hdr-phone text-decoration-none">+91 99598 86057</a>
+            <a href="mailto:ias.saravanank11@gmail.com" class="hdr-email text-decoration-none">ias.saravanank11@gmail.com</a>
+          </div>
+        </div>
+
+        <!-- Get A Quote Button -->
+        <a href="#" class="btn-custom-nav">
+          <span><i class="ri-file-list-3-line me-2"></i> Get A Quote</span>
+        </a>
+
+        <!-- Hamburger -->
+        <button class="hamburger-btn" aria-label="Toggle mobile menu" id="hamburgerBtn">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Sliding Menu -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+  <div class="mobile-menu-drawer" id="mobileMenuDrawer">
+    <div class="mobile-menu-header d-flex align-items-center justify-content-between">
+      <div class="mobile-logo-wrapper d-flex align-items-center">
+        <img src="assets/img/ias_logo.png" alt="IAS" class="mobile-logo">
+      </div>
+      <button class="mobile-menu-close" aria-label="Close menu" id="mobileMenuClose">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <div class="mobile-menu-body">
+      <ul class="mobile-nav-menu list-unstyled mb-0">
+        <li class="mobile-menu-item"><a href="index.html" class="active">Home</a></li>
+        <li class="mobile-menu-item"><a href="#">About Us</a></li>
+        <li class="mobile-menu-item"><a href="#">Services</a></li>
+        <li class="mobile-menu-item"><a href="#">Projects</a></li>
+        <li class="mobile-menu-item"><a href="#">Contact Us</a></li>
+      </ul>
+
+      <div class="mobile-menu-footer mt-3">
+        <a href="tel:+919959886057" class="mobile-contact-link d-block mb-3 text-decoration-none">
+          <i class="ri-phone-fill me-2 text-primary"></i>+91 99598 86057
+        </a>
+        <a href="mailto:ias.saravanank11@gmail.com" class="mobile-contact-link d-block mb-4 text-decoration-none">
+          <i class="ri-mail-line me-2 text-primary"></i>ias.saravanank11@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+
 <!-- Hero Section (Owl Carousel, infinite slide, no arrows, no video, draggable) -->
 <section id="hero" class="section-hero p-0">
   <div class="hero-slider owl-carousel owl-theme">
@@ -577,7 +711,7 @@
         <!-- Col 1: About -->
         <div class="col-lg-3 col-md-6 footer-col">
           <a href="index.html" class="footer-logo-wrapper d-flex align-items-center justify-content-center mb-3" aria-label="IAS Home">
-            <img src="assets/img/logo.png" alt="IAS" class="footer-logo" loading="lazy" width="300" height="266">
+            <img src="assets/img/ias_logo.png" alt="IAS" class="footer-logo" loading="lazy" width="300" height="266">
           </a>
           <p class="footer-about-text">
             International Automation System is a specialized Panel Building and Industrial Automation company providing end-to-end solutions for industrial, commercial, and residential projects.
