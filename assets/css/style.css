@@ -1040,7 +1040,7 @@ section {
   display: block;
   height: 5px !important;
   width: 20px;
-  background-color: var(--white) !important;
+  background-color: rgba(213, 192, 0, 0.45) !important;
   border-radius: 0 !important;
   margin: 0 !important;
   transition: var(--transition-smooth);
@@ -1048,7 +1048,7 @@ section {
 
 .section-hero .owl-dot.active span {
   width: 35px;
-  background-color: var(--primary) !important;
+  background-color: var(--gold) !important;
 }
 
 /* ==========================================================================
